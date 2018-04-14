@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 class Perceptron(object):
     """Perceptron classifer.
@@ -55,3 +56,6 @@ class Perceptron(object):
     def predict(self, X):
         """Return class label after unit step"""
         return np.where(self.net_input(X) >= 0.0, 1, -1)
+=======
+#Making use of a Pull Request...
+>>>>>>> 5f69d3750cefdef0e791e61a5fbfd33f81e98b64
